@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.heading-container {
+    width: 128px;
+    height: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #2A4365;
+
+}
+.col-blue{
+    color: #63B3ED;
+}
+.dis-flex{
+    display: flex;
+    justify-content: center;
+}

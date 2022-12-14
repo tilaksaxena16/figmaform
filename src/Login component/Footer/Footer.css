@@ -1,0 +1,21 @@
+.footer-container {
+    box-sizing: border-box;
+    width: 427px;
+    height: 61px;
+    border: 2px solid #2A4365;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-child {
+    width: 196px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2A4365;
+}

@@ -1,0 +1,19 @@
+.fullname-container {
+    width: 126px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2A4365;
+
+}
+
+.fullname-icon {
+    width: 24px;
+    height: 24px;
+    
+}
+
+
