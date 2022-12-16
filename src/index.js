@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import { Login } from "./Login";
 import { RegisForm } from "./RegisForm";
+import { Form } from "./Practiseform/Form";
+
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,12 @@ const router = createBrowserRouter([
     path: "registration",
     element: (
       <RegisForm />
+    ),
+  },
+  {
+    path: "form",
+    element: (
+      <Form />
     ),
   },
 ]);
