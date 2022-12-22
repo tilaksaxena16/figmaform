@@ -9,6 +9,7 @@ import {
 import { Login } from "./Login";
 import { RegisForm } from "./RegisForm";
 import { Form } from "./Practiseform/Form";
+import { Numincdec } from "./project/Numincdec";
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,12 @@ const router = createBrowserRouter([
     path: "form",
     element: (
       <Form />
+    ),
+  },
+  {
+    path: "num",
+    element: (
+      <Numincdec />
     ),
   },
 ]);
